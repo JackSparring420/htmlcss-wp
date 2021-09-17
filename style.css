@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 23px;
+    padding:0
+}
+
+body{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* intestazione */
+.head{
+    margin: 30px 10%;
+}
+.logo{
+    height: 100px;
+    width: 237px;
+    background-image: url(img/logo.png);
+    background-size: contain;
+}
+.menu{
+    margin: 40px 0px;
+}
+
+.link_menu{
+    margin-right: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+li{
+    display: inline-block;
+}
+
+/* primo blocco */
+.block_a{
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-color:#e1d67a;
+    height: 600px;
+    margin: 0 10% 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.block_a>section{
+    color: white;
+    width: 70%;
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+/* secondo blocco */
+.title>h1{
+    color: black;
+}
+
+
+.block_b{
+    margin: 0 10%;
+}
+
+.block_b::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+ /* colonne */
+
+ .titoletto{
+     color: black;
+     padding: 20px 0;
+ }
+
+.column{ 
+    border: solid 20px;
+    border-color: white;
+    float: left;
+}
+
+#first{
+    border-right: 0;
+    border-left:0;
+    width: 25%;
+}
+
+#second{   
+    width: 50%;
+}
+
+#third{   
+    width: 25%;
+    border-right: 0;
+    border-left:0;
+}
+ 
+img {
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+} 
+
+.image{
+    background-size: cover;
+    height: 280px;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+
+
+/* footer */
+footer{
+    margin: 15px 10%;
+    text-align: center;
+    color:black
+}
+
+#heart{
+    color: red;
+}
